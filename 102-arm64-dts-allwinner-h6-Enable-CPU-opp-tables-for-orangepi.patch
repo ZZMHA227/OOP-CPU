@@ -29,7 +29,6 @@ index 000000000..2e4f3ea4e
 + 			reg_dcdca: dcdca {
 + 				regulator-always-on;
 + 				regulator-min-microvolt = <810000>;
-+-				regulator-max-microvolt = <1080000>;
 ++				regulator-max-microvolt = <1160000>;
 ++				regulator-ramp-delay = <2500>;
 + 				regulator-name = "vdd-cpu";
